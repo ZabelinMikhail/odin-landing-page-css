@@ -66,6 +66,7 @@
 .header img {
     min-width: 300px;
     flex: 1 1 400px;
+    border-radius: 10px;
 }
 
 .header h1 {
@@ -82,12 +83,55 @@
 }
 
 .header button {
-   
+   background-color: #3882F6;
+   color: white;
+   width: 200px;
+   height: 50px;
+   text-align: center;
+   font-size: large;
+   border-radius: 10px;
 }
 
+.header button:hover {
+    color: #E5E7EB;
+}
+/*Header block - end*/
 
 
+/*Informaition block - start*/
+.info-top-container h1 {
+    color: #1f2937;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    font-size: 36px;
+    font-weight: bolder;
+}
 
+.boxes {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5% 15%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.boxes .box {
+    max-width: 250px;
+}
+
+.boxes img {
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.boxes p {
+    color: #6f737c;
+    font-size: 20px;
+}
+/*Informaition block - end*/
 
 
 
