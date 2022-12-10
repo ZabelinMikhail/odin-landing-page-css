@@ -112,7 +112,7 @@
 .boxes {
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 5% 15%;
     gap: 20px;
     flex-wrap: wrap;
@@ -142,15 +142,29 @@
 /*Informaition block - end*/
 
 
+/*Main block - start*/
+.main-container {
+    background-color: #E5E7EB;
+    padding: 50px 25%;
+}
 
+.main-container p {
+    font-size: 35px;
+    font-style: italic;
+    color: #1f2937;
+}
 
+.main-container .author {
+    text-align: right;
+}
 
-
-
-
-
-
-
+.main-container p1 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}
+/*Main block - end*/
 
 
 
