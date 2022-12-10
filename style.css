@@ -131,6 +131,14 @@
     color: #6f737c;
     font-size: 20px;
 }
+
+.box {
+    transition: 1s;
+}
+
+.box:hover {
+    transform: scale(1.2);
+}
 /*Informaition block - end*/
 
 
