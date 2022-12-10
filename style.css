@@ -12,6 +12,7 @@
     color: white;
     justify-content: space-between;
     padding: 0 15%;
+    gap: 20px;
 }
 
 .navbar .img {
@@ -46,12 +47,46 @@
     background-color: #1f2937;
     display: flex;
     color: white;
-    padding: 0 15%;
+    padding: 5% 15%;
+    height: auto;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    flex: auto;
+
 }
 
 .header .left-container {
-    
+    min-width: 300px;   
 }
+
+.header img {
+    min-width: 300px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 20px;
+}
+
+.header p {
+    color: #E5E7EB;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.header button {
+   
+}
+
+
+
+
+
 
 
 
