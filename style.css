@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation panel - start*/
+.navbar {
+    height: 60px;
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+.navbar .img {
+    height: fit-content;
+    margin-left: 20%;
+}
+
+.navbar .nav {
+    display: flex;
+    gap: 20px;
+    align-self: center;
+}
+
+.navbar ul {
+    list-style-type: none;  
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.navbar a:hover{  /*hightlite when chose with a mouse*/
+    color: lightblue;
+}
+/*Navigation panel - end*/
+
+
+/*Header block - start*/
+.header {
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    padding: 0 15%;
+}
+
+.header .left-container {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
