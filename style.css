@@ -221,11 +221,12 @@
 /*Bottom block - end*/
 
 /*Footer - start*/
-
-
-
-
-
+.footer {
+    background-color: #1f2937;
+    padding: 50px 15%;
+    color: white;
+    text-align: center;
+}
 /*Footer - end*/
 
 
