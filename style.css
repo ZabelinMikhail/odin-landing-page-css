@@ -11,7 +11,7 @@
     display: flex;
     color: white;
     justify-content: space-between;
-    padding: 0 15%;
+    padding: 5px 15%;
     gap: 20px;
 }
 
@@ -24,6 +24,8 @@
     display: flex;
     gap: 20px;
     align-self: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .navbar ul {
@@ -54,16 +56,16 @@
     align-items: center;
     height: auto;
     flex-wrap: wrap;
-    flex: auto;
-
 }
 
 .header .left-container {
-    min-width: 300px;   
+    min-width: 300px;
+    flex: 1 1 400px;   
 }
 
 .header img {
     min-width: 300px;
+    flex: 1 1 400px;
 }
 
 .header h1 {
